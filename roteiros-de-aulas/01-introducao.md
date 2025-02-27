@@ -22,7 +22,7 @@
 
 ## 2. Download do VisualG
 
-Download: [VisualG](https://sourceforge.net/projects/visualg30/)
+🔗 Download: [VisualG](https://sourceforge.net/projects/visualg30/)
 
 ## 3. Estrutura Básica de um Programa no VisualG
 
