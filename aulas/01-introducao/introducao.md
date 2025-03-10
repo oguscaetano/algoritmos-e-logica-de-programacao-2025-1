@@ -169,24 +169,4 @@ inicio
 fimalgoritmo
 ```
 
-## 7. Utilizando Constantes
-```sh
-algoritmo "exemplo_constante"
-const
-   PI <- 3.1415
-var
-   raio, area: real
-inicio
-   raio <- 5
-   area <- PI * raio * raio
-
-   escreval("Área do círculo: ", area)
-fimalgoritmo
-```
-
-- **Explicação do código:**
-  - `const` → Define uma constante.
-  - `PI <- 3.1415` → Define um valor fixo para PI.
-  - `area <- PI * raio * raio` → Calcula a área de um círculo.
-
 >**💡 Execute no VisualG para ver a saída**
