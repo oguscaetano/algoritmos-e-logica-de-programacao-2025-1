@@ -9,6 +9,7 @@
 
 ```sh
 algoritmo "dados_pessoa"
+
 var
    nome: caractere
    idade: inteiro
@@ -33,6 +34,7 @@ fimalgoritmo
 
 ```sh
 algoritmo "dobro_numero"
+
 var
    numero, dobro: inteiro
 inicio
@@ -54,6 +56,7 @@ fimalgoritmo
 
 ```sh
 algoritmo "calculadora_simples"
+
 var
    num1, num2: inteiro
    soma, subtracao, multiplicacao, divInt, resto: inteiro
@@ -78,4 +81,88 @@ inicio
    escreval("Divisão inteira: ", divInt)
    escreval("Resto da divisão: ", resto)
 fimalgoritmo
+```
+
+### 4. Crie um algoritmo que calcule a área de um retângulo.
+
+```sh
+Algoritmo "AreaRetangulo"
+
+Var
+    base, altura, area : real
+
+Inicio
+    // Definição de valores
+    base <- 10
+    altura <- 5
+
+    // Cálculo da área do retângulo
+    area <- base * altura
+
+    // Exibição do resultado
+    escreval("Área do retângulo: ", area)
+Fimalgoritmo
+```
+
+### 5. Crie um algoritmo que calcule a área de um círculo.
+
+```sh
+Algoritmo "AreaCirculo"
+
+Var
+    raio, area, numeroPi : real
+
+Inicio
+    // Definição de valores
+    numeroPi <- 3.1415
+    raio <- 7
+
+    // Cálculo da área do círculo
+    area <- numeroPi * (raio * raio)
+
+    // Exibição do resultado
+    escreval("Área do círculo: ", area)
+Fimalgoritmo
+```
+
+### 6. Crie um algoritmo que calcule a área de um triângulo.
+
+```sh
+Algoritmo "AreaTriangulo"
+
+Var
+    base, altura, area : real
+
+Inicio
+    // Definição de valores
+    base <- 8
+    altura <- 6
+
+    // Cálculo da área do triângulo
+    area <- (base * altura) / 2
+
+    // Exibição do resultado
+    escreval("Área do triângulo: ", area)
+Fimalgoritmo
+```
+
+### 7. Crie um algoritmo que calcule o IMC (Índice de Massa Corporal) de uma pessoa.
+
+```sh
+Algoritmo "CalculoIMC"
+
+Var
+    peso, altura, imc : real
+
+Inicio
+    // Definição de valores
+    peso <- 112
+    altura <- 1.85
+
+    // Cálculo do IMC
+    imc <- peso / (altura * altura)
+
+    // Exibição do resultado
+    escreval("O IMC calculado é: ", imc)
+Fimalgoritmo
 ```
