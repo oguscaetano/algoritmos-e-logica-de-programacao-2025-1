@@ -17,3 +17,9 @@ Crie um programa que peça o número de **vitórias, empates e derrotas** de um 
 
 ## 5 - Diferença de Salários entre Jogadores 
 Peça ao usuário os salários de dois jogadores de futebol e mostre a diferença entre eles.  
+
+## 6 - Verificação de Cartão Vermelho  
+Um jogador recebe cartão vermelho se receber **2 cartões amarelos** no jogo. Escreva um programa que verifica se um jogador será expulso, baseado na quantidade de cartões amarelos.
+
+## 7 – Verificar se um Jogador Pode Jogar  
+Escreva um programa que solicita ao usuário a idade de um jogador e verifica se ele pode jogar na categoria **Sub-20** (jogadores com 20 anos ou menos). Se for mais velho, ele deve jogar na categoria profissional.

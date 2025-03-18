@@ -136,3 +136,44 @@ No C, existe também a função **`abs(x)`**, que faz a **mesma coisa, mas para 
 
 🔹 `fabs(x)` → Para **`float` e `double`** (números decimais).  
 🔹 `abs(x)` → Para **`int`** (números inteiros).  
+
+## 6 - Verificação de cartão vermelho
+
+```c
+#include <stdio.h>
+
+int main() {
+    int cartoes = 2; // Simulando que o jogador recebeu 2 amarelos
+
+    if (cartoes == 2) {
+        printf("O jogador foi expulso! Recebeu um cartao vermelho.\n");
+    } else {
+        printf("O jogador continua no jogo.\n");
+    }
+
+    return 0;
+}
+```
+
+## 7 – Verificar se um Jogador Pode Jogar  
+
+```c
+#include <stdio.h>
+
+int main() {
+    int idade;
+
+    // Entrada de dados
+    printf("Digite a idade do jogador: ");
+    scanf("%d", &idade);
+
+    // Verificação
+    if (idade <= 20) {
+        printf("O jogador pode participar da categoria Sub-20.\n");
+    } else {
+        printf("O jogador deve jogar na categoria profissional.\n");
+    }
+
+    return 0;
+}
+```
