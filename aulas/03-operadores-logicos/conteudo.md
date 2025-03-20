@@ -78,7 +78,7 @@ Os **operadores relacionais** são usados para comparar valores.
 | `<>` | Diferente | `3 <> 5` (Verdadeiro) :white_check_mark:|
 | `>` | Maior que | `10 > 7` (Verdadeiro) :white_check_mark:|
 | `<` | Menor que | `4 < 6` (Verdadeiro) :white_check_mark:|
-| `>=` | Maior ou igual | `5 >= 3` (Falso) ❌|
+| `>=` | Maior ou igual | `3 >= 5` (Falso) ❌|
 | `<=` | Menor ou igual | `2 <= 3` (Verdadeiro) :white_check_mark:|
 
 ### Exemplo prático: Entrada de cinema

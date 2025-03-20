@@ -177,3 +177,89 @@ int main() {
     return 0;
 }
 ```
+
+## 8 – Avaliar o desempenho do jogador 
+
+```c
+#include <stdio.h>
+
+int main() {
+    int gols;
+
+    printf("Digite a quantidade de gols marcados pelo jogador: ");
+    scanf("%d", &gols);
+
+    if (gols > 10) {
+        printf("Excelente temporada!\n");
+    } else if (gols >= 5) { // Aqui já sabemos que é no máximo 10
+        printf("Boa temporada!\n");
+    } else {
+        printf("Temporada abaixo do esperado.\n");
+    }
+
+    return 0;
+}
+```
+
+## 9 – Classificação do jogador baseada em idade e desempenho 
+
+```c
+#include <stdio.h>
+
+int main() {
+    int idade, gols;
+
+    printf("Digite a idade do jogador: ");
+    scanf("%d", &idade);
+
+    printf("Digite a quantidade de gols marcados: ");
+    scanf("%d", &gols);
+
+    if (idade <= 20 && gols > 10) { 
+        printf("Jovem talento promissor!\n");
+        } else if (idade <= 20 && gols <= 10){
+            printf("Jovem em desenvolvimento.\n");
+        } else if (idade > 20 && gols > 15) {
+            printf("Jogador experiente em grande fase!\n");
+        } else if (idade > 20 && gols <= 15){
+            printf("Estevão.\n");
+        }
+
+    return 0;
+}
+```
+
+## 10 – Classificação do nível da partida com base na quantidade de torcedores
+
+```c
+#include <stdio.h>
+
+int main() {
+    int capacidade, torcedores;
+    float ocupacao;
+
+    printf("Digite a capacidade total do estadio: ");
+    scanf("%d", &capacidade);
+
+    printf("Digite a quantidade de torcedores presentes: ");
+    scanf("%d", &torcedores);
+
+    ocupacao = (float)torcedores / capacidade * 100;
+
+    printf("\n=== RESULTADO ===\n");
+
+    printf("Lotação: %.2f%% \n", ocupacao);
+
+    if (ocupacao > 90) {
+        printf("Lotado!\n");
+    } else if (ocupacao >= 70) {
+        printf("Otima presenca de publico!\n");
+    } else if (ocupacao >= 50) {
+        printf("Publico razoavel.\n");
+    } else {
+        printf("Morumbis.\n");
+    }
+
+    return 0;
+}
+```
