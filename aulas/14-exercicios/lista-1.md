@@ -26,7 +26,7 @@ Implemente um jogo em que o usuário deve adivinhar o número secreto (fixo, por
 ## ✅ Exercício 6 – Notas do semestre
 Uma disciplina tem 3 notas. Crie uma função `float calcularMedia(float n1, float n2, float n3)` que retorna a média. No `main`, leia as 3 notas, chame a função e mostre a média.
 
-### ✅ Exercício 7 – Censura automática
+## ✅ Exercício 7 – Censura automática
 Você é programador de uma rede social e precisa censurar uma palavra. Leia uma frase de até 50 caracteres e um caractere proibido, e imprima a frase com os caracteres proibidos substituídos por `*`.
 
 ## ✅ Exercício 8 – Média de uma turma
